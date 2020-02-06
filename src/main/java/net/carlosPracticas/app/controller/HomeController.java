@@ -2,16 +2,20 @@ package net.carlosPracticas.app.controller;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import net.carlosPracticas.app.model.Pelicula;
 
 @Controller
 public class HomeController {
+
+	private SimpleDateFormat dateFormat= new SimpleDateFormat("dd-MM.yyyy");
 
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String goHome() {
@@ -25,20 +29,26 @@ public class HomeController {
 //		peliculas.add("Rapido y furioso");
 //		peliculas.add("El aro 2");
 //		peliculas.add("Aliens");
+		model.addAttribute("fechaBusqueda", dateFormat.format(new Date()));
 		model.addAttribute("peliculas", peliculas);
+
 
 		return "home";
 	}
 
-	@RequestMapping(value = "/detail")
-	public String mostrarDetalle(Model model) {
-		String tituloPelicula = "Rapidos y furiosos";
+	@RequestMapping(value = "/detail/{id}/{fecha}", method = RequestMethod.GET)
+	public String mostrarDetalle(Model model, @PathVariable("id") int idPelicula, @PathVariable("fecha") String fecha) {
+
+		System.out.println("Buscando Horarios para la pelicula" + idPelicula);
+		System.out.println("Para la fecha: " + fecha);
+
+		/*String tituloPelicula = "Rapidos y furiosos";
 		int duracion = 136;
 		double precioEntrada = 50;
 
 		model.addAttribute("titulo", tituloPelicula);
 		model.addAttribute("duracion", duracion);
-		model.addAttribute("precio", precioEntrada);
+		model.addAttribute("precio", precioEntrada);*/
 		return "detalle";
 	}
 
@@ -86,12 +96,25 @@ public class HomeController {
 			pelicula4.setFechaEstreno(formatter.parse("06-06-2017"));
 			pelicula4.setImagen("kong.png"); // Nombre del archivo de imagen
 			pelicula4.setEstatus("Inactiva"); // Esta pelicula estara inactiva
+
+			Pelicula pelicula5 =new Pelicula();
+			pelicula5.setId(5);
+			pelicula5.setTitulo("Life: Vida Inteligente");
+			pelicula5.setDuracion(104);
+			pelicula5.setClasificacion("B");
+			pelicula5.setGenero("Drama");
+			pelicula5.setFechaEstreno(formatter.parse("10-06-2017"));
+			pelicula5.setImagen("estreno5.png");
+			pelicula5.setEstatus("Activa");
+
+
 			
 			// Agregamos los objetos Pelicula a la lista
 			lista.add(pelicula1);
 			lista.add(pelicula2);
 			lista.add(pelicula3);
 			lista.add(pelicula4);
+			lista.add(pelicula5);
 
 			return lista;
 		} catch (ParseException e) {
