@@ -7,151 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbb7839-d068-4db9-b2f5-a184b02234d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_18_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/homeRespaldo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/css/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/css/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/acerca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/estreno1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/estreno10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/estreno2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/estreno3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/estreno4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/estreno5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/estreno6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/estreno7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/estreno8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/estreno9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/slide1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/slide2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/slide3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/slide4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/slide5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/slide6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/images/slide7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/jquery.tinymce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/langs/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/advlist/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/anchor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/autolink/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/autoresize/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/autosave/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/bbcode/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/charmap/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/code/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/codesample/css/prism.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/codesample/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/colorpicker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/contextmenu/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/directionality/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-cool.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-cry.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-frown.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-wink.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/img/smiley-yell.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/emoticons/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/fullpage/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/fullscreen/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/help/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/help/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/hr/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/image/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/imagetools/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/importcss/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/insertdatetime/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/legacyoutput/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/link/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/media/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/nonbreaking/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/noneditable/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/pagebreak/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/paste/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/preview/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/print/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/save/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/searchreplace/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/spellchecker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/tabfocus/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/table/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/template/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/textcolor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/textpattern/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/toc/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/visualblocks/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/visualchars/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/plugins/wordcount/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/img/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/img/object.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/img/trans.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/skins/lightgray/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/themes/inlite/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/themes/modern/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/resources/tinymce/tinymce.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/cineapp_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/cineapp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/util/utiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cineapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cineapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/net/carlosPracticas/app/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/carlosPracticas/app/controller/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -403,12 +265,24 @@
       <workItem from="1580818043568" duration="654000" />
       <workItem from="1580819233607" duration="818000" />
       <workItem from="1580820333923" duration="1320000" />
-      <workItem from="1580983754917" duration="5067000" />
+      <workItem from="1580983754917" duration="7978000" />
     </task>
+    <task id="LOCAL-00001" summary="segundo">
+      <created>1580993629910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580993629910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="segundo" />
+    <option name="LAST_COMMIT_MESSAGE" value="segundo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="742" y="340" key="#BuildArtifactsBeforeRunChooser" timestamp="1580808147145">
@@ -447,10 +321,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="154" width="618" height="731" key="#tomcat/0.0.1920.1040@0.0.1920.1040" timestamp="1580821607827" />
-    <state x="314" y="116" key="CommitChangelistDialog2" timestamp="1580993574684">
+    <state x="314" y="116" key="CommitChangelistDialog2" timestamp="1580993628389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="314" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993574684" />
+    <state x="314" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993628389" />
     <state x="717" y="251" key="DetectedRootsChooserDialog" timestamp="1580818499174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -535,10 +409,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580819682035" />
-    <state x="766" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580993610551">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581075389925">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="766" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993610551" />
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581075389925" />
     <state x="383" y="217" key="new project wizard" timestamp="1580810465688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
