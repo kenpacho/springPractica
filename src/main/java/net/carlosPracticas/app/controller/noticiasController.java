@@ -16,7 +16,7 @@ public class noticiasController {
 
     }
 @PostMapping(value="/save")
-public String guardar(@RequestParam("titulo") String titulo){
+public String guardar(@RequestParam("titulo") String titulo, @RequestParam("estatus") String estatus, @RequestParam("detalle") String detalle){
         return "noticias/formNoticia";
 
 
