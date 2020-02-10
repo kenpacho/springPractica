@@ -12,8 +12,8 @@
     <title>CineSite | Bienvenido</title>
     <spring:url value="/resources" var="urlPublic"> </spring:url>
     <spring:url value="/" var="urlRoot"> </spring:url>
-    <link href="${urlPublic} bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="${urlPublic} bootstrap/css/theme.css" rel="stylesheet">
+    <link href="${urlPublic}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${urlPublic}/bootstrap/css/theme.css" rel="stylesheet">
 
 </head>
 
@@ -37,16 +37,16 @@
         <!-- Image Size 1140 x 250 -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="${urlPublic}images/slide1.jpg" alt="Slide" title="Some text" >
+                <img src="${urlPublic}/images/slide1.jpg" alt="Slide" title="Some text" >
             </div>
             <div class="item">
-                <img src="${urlPublic}images/slide2.jpg" alt="Slide" title="Some text" >
+                <img src="${urlPublic}/images/slide2.jpg" alt="Slide" title="Some text" >
             </div>
             <div class="item">
-                <img src="${urlPublic}images/slide3.jpg" alt="Slide" title="Some text" >
+                <img src="${urlPublic}/images/slide3.jpg" alt="Slide" title="Some text" >
             </div>
             <div class="item">
-                <img src="${urlPublic}images/slide4.jpg" alt="Slide" title="Some text" >
+                <img src="${urlPublic}/images/slide4.jpg" alt="Slide" title="Some text" >
             </div>
         </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -83,7 +83,7 @@
 
         <c:forEach items="${peliculas }" var="pelicula">
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <img class="img-rounded" src="${urlPublic}images/${pelicula.imagen}" alt="Generic placeholder image" width="150" height="200">
+                <img class="img-rounded" src="${urlPublic}/images/${pelicula.imagen}" alt="Generic placeholder image" width="150" height="200">
                 <h4>${pelicula.titulo }</h4>
                 <h4>
                     <span class="label label-default">${pelicula.clasificacion}</span>
@@ -144,6 +144,6 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="${urlPublic}bootstrap/js/bootstrap.min.js"></script>
+<script src="${urlPublic}/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

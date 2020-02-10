@@ -10,8 +10,8 @@
     <meta name="author" content="">
     <title>Creacion de Noticias</title>
     <spring:url value="/resources" var="urlPublic"> </spring:url>
-    <link href="${urlPublic}bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="${urlPublic}bootstrap/css/theme.css" rel="stylesheet">
+    <link href="${urlPublic}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${urlPublic}/bootstrap/css/theme.css" rel="stylesheet">
 
 </head>
 
@@ -56,7 +56,7 @@
 
     <hr class="featurette-divider">
 
-    <jsp:include page="../includes/footer.jsp"> </jsp:include>
+    <jsp:include page="../includes/footer.jsp"/>
 
 </div> <!-- /container -->
 
@@ -64,8 +64,8 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="${urlPublic}bootstrap/js/bootstrap.min.js"></script>
-<script src="${urlPublic}tinymce/tinymce.min.js"></script>
+<script src="${urlPublic}/bootstrap/js/bootstrap.min.js"></script>
+<script src="${urlPublic}/tinymce/tinymce.min.js"></script>
 <script>
     tinymce.init({
         selector: '#detalle',

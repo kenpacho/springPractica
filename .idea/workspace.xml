@@ -7,9 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbb7839-d068-4db9-b2f5-a184b02234d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/noticia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iPeliculasService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/cineapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/cineapp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/noticiasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/noticiasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cineapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cineapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/noticias/formNoticia.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/noticias/formNoticia.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -64,12 +72,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\caste\Desktop\cineapp\webapp\WEB-INF\spring" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\caste\Desktop\cineapp\webapp\resources\images" />
       <recent name="C:\Users\caste\Desktop\cineapp\webapp\resources" />
@@ -147,96 +158,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="tomcat" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="13" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="cineapp">
-          <settings>
-            <option name="CONTEXT_PATH" value="/cineapp_Web_exploded" />
-          </settings>
-        </artifact>
+    <configuration name="TomcatContainer" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="tomcat" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="tomcat:latest" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="" />
+          <option name="volumeBindings">
+            <list>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/usr/local/tomcat/webapps/" />
+                <option name="hostPath" value="$PROJECT_DIR$/out/artifacts/cineapp/" />
+              </DockerVolumeBindingImpl>
+            </list>
+          </option>
+        </settings>
       </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Server_cineapp_3" />
-        <option name="HTTP_PORT" value="8084" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51002" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="cineapp" />
-        </option>
-      </method>
+      <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.TomcatContainer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -262,7 +224,10 @@
       <workItem from="1580818043568" duration="654000" />
       <workItem from="1580819233607" duration="818000" />
       <workItem from="1580820333923" duration="1320000" />
-      <workItem from="1580983754917" duration="10311000" />
+      <workItem from="1580983754917" duration="10383000" />
+      <workItem from="1581250191938" duration="6829000" />
+      <workItem from="1581327917499" duration="2622000" />
+      <workItem from="1581331390551" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="segundo">
       <created>1580993629910</created>
@@ -292,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581163879799</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="segundo">
+      <created>1581164304249</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581164304249</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,115 +279,141 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="742" y="340" key="#BuildArtifactsBeforeRunChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580808147145" />
-    <state x="551" y="180" key="#Inspections" timestamp="1580820431099">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="553" y="200" key="#Docker" timestamp="1581254284682">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="553" y="200" key="#Docker/0.0.1920.1080@0.0.1920.1080" timestamp="1581254284682" />
+    <state x="931" y="213" key="#Docker_Image" timestamp="1581255036409">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="931" y="213" key="#Docker_Image/0.0.1920.1080@0.0.1920.1080" timestamp="1581255036409" />
+    <state x="551" y="187" key="#Inspections" timestamp="1581329050099">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="551" y="180" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1580820431099" />
-    <state x="554" y="194" key="#Project_Structure" timestamp="1580983875634">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="551" y="187" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1581329050099" />
+    <state x="553" y="200" key="#Notifications" timestamp="1581251191509">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="553" y="200" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1581251191509" />
+    <state x="554" y="201" key="#Project_Structure" timestamp="1581252621055">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="554" y="194" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1580983875634" />
+    <state x="554" y="201" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1581252621055" />
+    <state x="553" y="200" key="#Pull_Image" timestamp="1581254339071">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="553" y="200" key="#Pull_Image/0.0.1920.1080@0.0.1920.1080" timestamp="1581254339071" />
+    <state x="679" y="188" key="#TomcatContainer" timestamp="1581256080015">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="679" y="188" key="#TomcatContainer/0.0.1920.1080@0.0.1920.1080" timestamp="1581256080015" />
     <state x="554" y="180" key="#Tomcat_Server" timestamp="1580806886866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="554" y="180" key="#Tomcat_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1580806886866" />
-    <state x="417" y="177" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580986369490">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="417" y="177" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580986369490" />
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1581164092440">
+    <state x="417" y="184" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581256218139">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1581164092440" />
+    <state x="417" y="177" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580986369490" />
+    <state x="417" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581256218139" />
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1581329363642">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1581329363642" />
     <state x="588" y="211" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1580986099412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="588" y="211" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580986099412" />
-    <state x="554" y="194" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1580820733190">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="554" y="201" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1581252130779">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="554" y="194" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1580820733190" />
+    <state x="554" y="201" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1080@0.0.1920.1080" timestamp="1581252130779" />
     <state x="744" y="442" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1580820833113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="744" y="442" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040@0.0.1920.1040" timestamp="1580820833113" />
-    <state x="655" y="154" width="618" height="731" key="#tomcat" timestamp="1580821607827">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="655" y="160" width="618" height="731" key="#tomcat" timestamp="1581253201736">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="655" y="154" width="618" height="731" key="#tomcat/0.0.1920.1040@0.0.1920.1040" timestamp="1580821607827" />
-    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1581163879356">
+    <state x="655" y="160" key="#tomcat/0.0.1920.1080@0.0.1920.1080" timestamp="1581253201736" />
+    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1581164303777">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="314" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993628389" />
-    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1581163879356" />
+    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1581164303777" />
     <state x="717" y="251" key="DetectedRootsChooserDialog" timestamp="1580818499174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="717" y="251" key="DetectedRootsChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580818499174" />
-    <state x="742" y="277" key="FileChooserDialogImpl" timestamp="1580820717684">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="742" y="288" key="FileChooserDialogImpl" timestamp="1581252127830">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="742" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580820717684" />
-    <state width="1294" height="308" key="GridCell.Tab.0.bottom" timestamp="1581163285199">
+    <state x="742" y="288" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1581252127830" />
+    <state width="1294" height="297" key="GridCell.Tab.0.bottom" timestamp="1581255507846">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581163285199" />
-    <state width="1294" height="308" key="GridCell.Tab.0.center" timestamp="1581163285199">
+    <state width="1294" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507846" />
+    <state width="1294" height="297" key="GridCell.Tab.0.center" timestamp="1581255507846">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="308" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581163285199" />
-    <state width="1294" height="308" key="GridCell.Tab.0.left" timestamp="1581163285199">
+    <state width="1294" height="297" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507846" />
+    <state width="1294" height="297" key="GridCell.Tab.0.left" timestamp="1581255507846">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="308" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581163285199" />
-    <state width="1294" height="308" key="GridCell.Tab.0.right" timestamp="1581163285199">
+    <state width="1294" height="297" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507846" />
+    <state width="1294" height="297" key="GridCell.Tab.0.right" timestamp="1581255507846">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="308" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581163285199" />
-    <state width="1294" height="308" key="GridCell.Tab.1.bottom" timestamp="1581163285200">
+    <state width="1294" height="297" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507846" />
+    <state width="1294" height="297" key="GridCell.Tab.1.bottom" timestamp="1581255507847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="308" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581163285200" />
-    <state width="1294" height="308" key="GridCell.Tab.1.center" timestamp="1581163285200">
+    <state width="1294" height="297" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507847" />
+    <state width="1294" height="297" key="GridCell.Tab.1.center" timestamp="1581255507847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="308" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581163285200" />
-    <state width="1294" height="308" key="GridCell.Tab.1.left" timestamp="1581163285199">
+    <state width="1294" height="297" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507847" />
+    <state width="1294" height="297" key="GridCell.Tab.1.left" timestamp="1581255507846">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="308" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581163285199" />
-    <state width="1294" height="308" key="GridCell.Tab.1.right" timestamp="1581163285200">
+    <state width="1294" height="297" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507846" />
+    <state width="1294" height="297" key="GridCell.Tab.1.right" timestamp="1581255507847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="308" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581163285200" />
-    <state width="1294" height="308" key="GridCell.Tab.2.bottom" timestamp="1581163285200">
+    <state width="1294" height="297" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507847" />
+    <state width="1294" height="297" key="GridCell.Tab.2.bottom" timestamp="1581255507847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495551" />
-    <state width="1294" height="308" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581163285200" />
-    <state width="1294" height="308" key="GridCell.Tab.2.center" timestamp="1581163285200">
+    <state width="1294" height="297" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507847" />
+    <state width="1294" height="297" key="GridCell.Tab.2.center" timestamp="1581255507847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="308" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581163285200" />
-    <state width="1294" height="308" key="GridCell.Tab.2.left" timestamp="1581163285200">
+    <state width="1294" height="297" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507847" />
+    <state width="1294" height="297" key="GridCell.Tab.2.left" timestamp="1581255507847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="308" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581163285200" />
-    <state width="1294" height="308" key="GridCell.Tab.2.right" timestamp="1581163285200">
+    <state width="1294" height="297" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507847" />
+    <state width="1294" height="297" key="GridCell.Tab.2.right" timestamp="1581255507847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="308" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581163285200" />
+    <state width="1294" height="297" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507847" />
     <state width="1280" height="229" key="GridCell.Tab.3.bottom" timestamp="1580810471583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -432,31 +430,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1280" height="229" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580810471583" />
-    <state x="460" y="164" key="SettingsEditor" timestamp="1580986158267">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="460" y="170" key="SettingsEditor" timestamp="1581331375993">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="460" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580986158267" />
-    <state x="656" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1580983760076">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="460" y="170" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581331375993" />
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1581164308175">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581164308175" />
+    <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1581254632815">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize/0.0.1920.1080@0.0.1920.1080" timestamp="1581254632815" />
+    <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize" timestamp="1581255927456">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/0.0.1920.1080@0.0.1920.1080" timestamp="1581255927456" />
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1581331393869">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580983760076" />
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581331393869" />
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1580819682035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580819682035" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581164296316">
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581331413332">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="766" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993610551" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581164296316" />
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581331413332" />
     <state x="383" y="217" key="new project wizard" timestamp="1580810465688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="383" y="217" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580810465688" />
-    <state x="620" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1580987483334">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="621" y="239" width="672" height="705" key="search.everywhere.popup" timestamp="1581253249322">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="620" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580987483334" />
+    <state x="621" y="239" width="672" height="705" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581253249322" />
     <state x="628" y="218" key="spring file set editor" timestamp="1580986149099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
