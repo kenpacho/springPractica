@@ -40,7 +40,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					<c:forEach items="${ peliculas }" var="pelicula">
+					<c:forEach items="${ pelicula }" var="pelicula">
 						<tr>
 							<td>${pelicula.id }</td>
 							<td>${pelicula.titulo }</td>

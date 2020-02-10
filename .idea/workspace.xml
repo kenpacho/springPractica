@@ -7,16 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbb7839-d068-4db9-b2f5-a184b02234d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iPeliculasService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/cineapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/cineapp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cineapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cineapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/noticias/formNoticia.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/noticias/formNoticia.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iPeliculasService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iPeliculasService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/detalle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/detalle.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/homeRespaldo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/homeRespaldo.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +223,7 @@
       <workItem from="1580983754917" duration="10383000" />
       <workItem from="1581250191938" duration="6829000" />
       <workItem from="1581327917499" duration="2622000" />
-      <workItem from="1581331390551" duration="20000" />
+      <workItem from="1581331390551" duration="2686000" />
     </task>
     <task id="LOCAL-00001" summary="segundo">
       <created>1580993629910</created>
@@ -264,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581164304249</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="segundo">
+      <created>1581331432869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581331432869</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,11 +290,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="931" y="213" key="#Docker_Image/0.0.1920.1080@0.0.1920.1080" timestamp="1581255036409" />
-    <state x="551" y="187" key="#Inspections" timestamp="1581329050099">
+    <state x="551" y="187" key="#Inspections" timestamp="1581337482605">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="551" y="180" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1580820431099" />
-    <state x="551" y="187" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1581329050099" />
+    <state x="551" y="187" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1581337482605" />
     <state x="553" y="200" key="#Notifications" timestamp="1581251191509">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -313,15 +316,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="554" y="180" key="#Tomcat_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1580806886866" />
-    <state x="417" y="184" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581256218139">
+    <state x="417" y="184" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581334403116">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="417" y="177" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580986369490" />
-    <state x="417" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581256218139" />
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1581329363642">
+    <state x="417" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581334403116" />
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1581334704840">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1581329363642" />
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1581334704840" />
     <state x="588" y="211" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1580986099412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -340,11 +343,11 @@
     </state>
     <state x="655" y="154" width="618" height="731" key="#tomcat/0.0.1920.1040@0.0.1920.1040" timestamp="1580821607827" />
     <state x="655" y="160" key="#tomcat/0.0.1920.1080@0.0.1920.1080" timestamp="1581253201736" />
-    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1581164303777">
+    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1581331432189">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="314" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993628389" />
-    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1581164303777" />
+    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1581331432189" />
     <state x="717" y="251" key="DetectedRootsChooserDialog" timestamp="1580818499174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -456,11 +459,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580819682035" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581331413332">
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581337684074">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="766" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993610551" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581331413332" />
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581337684074" />
     <state x="383" y="217" key="new project wizard" timestamp="1580810465688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

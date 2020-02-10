@@ -6,6 +6,7 @@ import java.util.List;
 
 public interface iPeliculasService {
     List<Pelicula> buscarTodas();
+    Pelicula buscarPorId(int idPelicula);
 
     }
 
