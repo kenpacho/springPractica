@@ -1,6 +1,8 @@
 package net.carlosPracticas.app.controller;
 
 import net.carlosPracticas.app.model.noticia;
+import net.carlosPracticas.app.service.iNoticiasService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -11,20 +13,21 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("/noticias")
 public class noticiasController {
 
+    @Autowired
+    private iNoticiasService serviceNoticias;
+
     @GetMapping(value="/create")
     public String crear(){
         return "noticias/formNoticia";
 
     }
 @PostMapping(value="/save")
-public String guardar(@RequestParam("titulo") String titulo, @RequestParam("estatus") String estatus, @RequestParam("detalle") String detalle){
+public String guardar(noticia noticia){
 
-        noticia noticia = new noticia();
-        noticia.setTitulo(titulo);
-        noticia.setEstatus(estatus);
-        noticia.setDetalle(detalle);
 
         //Pendiente de guardar objeto noticia en la BBDD.
+
+    serviceNoticias.guardar(noticia);
 
 
 
