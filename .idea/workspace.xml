@@ -7,14 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbb7839-d068-4db9-b2f5-a184b02234d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/PeliculasController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/NoticiasServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iNoticiasService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/formPelicula.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/listPeliculas.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cineapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cineapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/noticiasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/noticiasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/PeliculasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/PeliculasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iPeliculasService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iPeliculasService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/formPelicula.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/formPelicula.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/listPeliculas.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -226,7 +229,8 @@
       <workItem from="1581250191938" duration="6829000" />
       <workItem from="1581327917499" duration="2622000" />
       <workItem from="1581331390551" duration="2735000" />
-      <workItem from="1581359103945" duration="2425000" />
+      <workItem from="1581359103945" duration="2742000" />
+      <workItem from="1581415850100" duration="5853000" />
     </task>
     <task id="LOCAL-00001" summary="segundo">
       <created>1580993629910</created>
@@ -284,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581337722142</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="segundo">
+      <created>1581361569275</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581361569275</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +318,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="931" y="213" key="#Docker_Image/0.0.1920.1080@0.0.1920.1080" timestamp="1581255036409" />
+    <state x="555" y="217" key="#HTTP_Proxy" timestamp="1581423619236">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="555" y="217" key="#HTTP_Proxy/0.0.1920.1080@0.0.1920.1080" timestamp="1581423619236" />
     <state x="551" y="187" key="#Inspections" timestamp="1581337482605">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -338,10 +353,10 @@
     </state>
     <state x="417" y="177" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580986369490" />
     <state x="417" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581334403116" />
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1581334704840">
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1581421422932">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1581334704840" />
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1581421422932" />
     <state x="588" y="211" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1580986099412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -360,11 +375,11 @@
     </state>
     <state x="655" y="154" width="618" height="731" key="#tomcat/0.0.1920.1040@0.0.1920.1040" timestamp="1580821607827" />
     <state x="655" y="160" key="#tomcat/0.0.1920.1080@0.0.1920.1080" timestamp="1581253201736" />
-    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1581361554283">
+    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1581361568741">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="314" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993628389" />
-    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1581361554283" />
+    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1581361568741" />
     <state x="717" y="251" key="DetectedRootsChooserDialog" timestamp="1580818499174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -459,10 +474,10 @@
     </state>
     <state x="460" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580986158267" />
     <state x="460" y="170" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581331375993" />
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1581164308175">
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1581361575393">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581164308175" />
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581361575393" />
     <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1581254632815">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -471,24 +486,28 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/0.0.1920.1080@0.0.1920.1080" timestamp="1581255927456" />
-    <state x="656" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1581359107266">
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1581415860708">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580983760076" />
-    <state x="656" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581359107266" />
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581415860708" />
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1580819682035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580819682035" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581361543064">
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581425041020">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="766" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993610551" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581361543064" />
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581425041020" />
     <state x="383" y="217" key="new project wizard" timestamp="1580810465688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="383" y="217" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580810465688" />
+    <state x="619" y="252" key="run.anything.popup" timestamp="1581423005519">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="619" y="252" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581423005519" />
     <state x="621" y="239" width="672" height="705" key="search.everywhere.popup" timestamp="1581253249322">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

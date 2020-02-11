@@ -83,6 +83,10 @@ public class PeliculasServiceImpl implements iPeliculasService{
     }
 
 
+    @Override
+    public void insertar(Pelicula pelicula) {
+        lista.add(pelicula);
+    }
 
     @Override
     public List<Pelicula> buscarTodas() {
