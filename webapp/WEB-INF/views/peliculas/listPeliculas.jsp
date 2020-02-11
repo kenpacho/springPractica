@@ -18,10 +18,16 @@
 </head>
 
 <body>
-<jsp:include page="../includes/menu.jsp"></jsp:include>
+<jsp:include page="../includes/menu.jsp"> </jsp:include>
 <div class="container theme-showcase" role="main">
     <h3>Listado de Peliculas</h3>
-    ${mensaje}
+
+    <c:if test="${mensaje!= null}">
+
+        <div class='alert alert-success' role="alert">${mensaje}</div>
+
+    </c:if>
+
     <a href="${urlCreate}" class="btn btn-success" role="button" title="Nueva Pelicula">Nueva</a><br><br>
     <div class="table-responsive">
         <table class="table table-hover table-striped table-bordered">
@@ -62,7 +68,7 @@
         </table>
     </div>
     <hr class="featurette-divider">
-    <jsp:include page="../includes/footer.jsp"></jsp:include>
+    <jsp:include page="../includes/footer.jsp"> </jsp:include>
 
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -37,9 +38,9 @@ public class PeliculasController {
     }
 
     @PostMapping("/save")
-    public String guardar (Pelicula pelicula, BindingResult result, Model model){
+    public String guardar (Pelicula pelicula, BindingResult result, RedirectAttributes attributes){
         if(result.hasErrors()) {
-            System.out.println("Sehan producido errores");
+            System.out.println("Se han producido errores");
             return "peliculas/formPelicula";
 
             // for(ObjectError error: result.getAllErrors()){
@@ -49,7 +50,7 @@ public class PeliculasController {
 
         servicePeliculas.insertar(pelicula);
         //return "peliculas/formpelicula";
-        model.addAttribute("mensaje", "El registro  fue guardado");
+        attributes.addFlashAttribute("mensaje", "El registro  fue guardado");
         return "redirect:/peliculas/index";
     }
     @InitBinder
