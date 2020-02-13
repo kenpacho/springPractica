@@ -34,12 +34,12 @@ public class PeliculasController {
     }
 
     @GetMapping("/create")
-    public String crear(){
+    public String crear(@ModelAttribute Pelicula pelicula){
         return "peliculas/formPelicula";
     }
 
     @PostMapping("/save")
-    public String guardar (Pelicula pelicula, BindingResult result, RedirectAttributes attributes, @RequestParam("archivoImagen") MultipartFile multiPart, HttpServletRequest request){
+    public String guardar (@ModelAttribute Pelicula pelicula, BindingResult result, RedirectAttributes attributes, @RequestParam("archivoImagen") MultipartFile multiPart, HttpServletRequest request){
         if(result.hasErrors()) {
             System.out.println("Se han producido errores");
             return "peliculas/formPelicula";
