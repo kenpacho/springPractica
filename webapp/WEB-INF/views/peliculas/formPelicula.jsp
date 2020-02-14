@@ -1,6 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<%@ taglib prefix="from" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +11,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Creacion de Peliculas</title>
-    <spring:url value="/resources" var="urlPubllic"/>
+    <spring:url value="/resources" var="urlPublic"/>
     <spring:url value="/peliculas/save" var="urlForm"/>
-    <link href="${urlPubllic}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="${urlPubllic}/bootstrap/css/theme.css" rel="stylesheet">
+    <link href="${urlPublic}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${urlPublic}/bootstrap/css/theme.css" rel="stylesheet">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 </head>
@@ -39,11 +40,23 @@
         </div>
     </spring:hasBindErrors>
 
+    ${pelicula}
+    <%--@elvariable id="pelicula" type=""--%>
     <form:form action="${urlForm}" method="post" enctype="multipart/form-data" modelAttribute="pelicula">
+    
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="form-group">
+                <img class="img-rounded" src="${urlPublic}/images/${pelicula.imagen}" title="Imagen actual de la pelicula" width="150" height="200">
+            </div>
+        </div>
+    </div>
+        
         <div class="row">
             <div class="col-sm-3">
                 <div class="form-group">
                     <label for="titulo">Título</label>
+                    <form:hidden path="id"/>
                     <form:input type="text" class="form-control" path="titulo" id="titulo" required="required" />
                 </div>
             </div>
@@ -66,7 +79,10 @@
             <div class="col-sm-3">
                 <div class="form-group">
                     <label for="genero" class="control-label">Genero</label>
-                    <form:select id="genero" path="genero" class="form-control">
+                    <form:select id="genero" path="genero" class="form-control" items="${generos}" />
+
+
+                        <%--
                         <form:option value="Accion">Accion</form:option>
                         <form:option value="Aventura">Aventura </form:option>
                         <form:option value="Clasicas">Clasicas</form:option>
@@ -77,6 +93,8 @@
                         <form:option value="Accion y Aventura">Accion y Aventura</form:option>
                         <form:option value="Romantica">Romantica</form:option>
                     </form:select>
+                    --%>
+
                 </div>
             </div>
         </div>
@@ -101,13 +119,14 @@
             <div class="col-sm-3">
                 <div class="form-group">
                     <label for="imagen">Imagen</label>
-                    <input type="file" id="archivoImagen" path="archivoImagen" />
+                    <form:hidden path="imagen"/>
+                    <input type="file" id="archivoImagen" name="archivoImagen" />
                     <p class="help-block">Imagen de la pelicula</p>
                 </div>
             </div>
         </div>
 
-        <!--
+
         <div class="page-header">
             <h3 class="blog-title"><span class="label label-success">Detalles</span></h3>
         </div>
@@ -116,20 +135,20 @@
           <div class="col-sm-3">
             <div class="form-group">
               <label for="director">Director</label>
-              <input type="text" class="form-control" name="director" id="director" required="required" />
+              <from:input type="text" class="form-control" path="detalle.director" id="director" required="required" />
             </div>
           </div>
           <div class="col-sm-3">
             <div class="form-group">
               <label for="actores">Actores</label>
-              <input type="text" class="form-control" name="actores" id="actores" required="required" />
+              <form:input type="text" class="form-control" path="detalle.actores" id="actores" required="required" />
             </div>
           </div>
 
           <div class="col-sm-6">
             <div class="form-group">
               <label for="trailer">URL del Trailer (Youtube)</label>
-              <input type="text" class="form-control" name="trailer" id="trailer" placeholder="URL completa del video de YOUTUBE" required="required" />
+              <form:input type="text" class="form-control" name="trailer" path="detalle.trailer" placeholder="URL completa del video de YOUTUBE" required="required" />
             </div>
           </div>
         </div>
@@ -138,11 +157,11 @@
           <div class="col-sm-6">
             <div class="form-group">
               <label for="sinopsis">Sinopsis</label>
-              <textarea class="form-control" rows="5" name="sinopsis" id="sinopsis"></textarea>
+              <form:textarea class="form-control" rows="5" path="detalle.sinopsis" id="sinopsis"> </form:textarea>
             </div>
           </div>
         </div>
-        -->
+
 
         <button type="submit" class="btn btn-danger" >Guardar</button>
     </form:form>
@@ -157,8 +176,8 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="${urlPubllic}/bootstrap/js/bootstrap.min.js"></script>
-<script src="${urlPubllic}/tinymce.min.js"></script>
+<script src="${urlPublic}/bootstrap/js/bootstrap.min.js"></script>
+<script src="${urlPublic}/tinymce.min.js"></script>
 <script>
     $(function () {
             $("#fechaEstreno").datepicker({dateFormat: 'dd-mm-yy'});

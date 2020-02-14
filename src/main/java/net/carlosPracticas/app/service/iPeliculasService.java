@@ -8,6 +8,7 @@ public interface iPeliculasService {
     void insertar(Pelicula pelicula);
     List<Pelicula> buscarTodas();
     Pelicula buscarPorId(int idPelicula);
+    List<String> buscarGeneros();
 
     }
 

@@ -13,6 +13,8 @@ public class Pelicula {
 	private Date fechaEstreno;	
 	private String estatus="Activa";
 
+	private Detalle detalle;
+
 	public Pelicula(){
 
 	}
@@ -20,6 +22,15 @@ public class Pelicula {
 	public int getId() {
 		return id;
 	}
+
+	public Detalle getDetalle() {
+		return detalle;
+	}
+
+	public void setDetalle(Detalle detalle) {
+		this.detalle = detalle;
+	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -65,14 +76,19 @@ public class Pelicula {
 	public void setEstatus(String estatus) {
 		this.estatus = estatus;
 	}
-	
+
 	@Override
 	public String toString() {
-		return "Pelicula [id=" + id + ", titulo=" + titulo + ", duracion=" + duracion + ", clasificacion="
-				+ clasificacion + ", genero=" + genero + ", imagen=" + imagen + ", fechaEstreno=" + fechaEstreno
-				+ ", estatus=" + estatus + "]";
+		return "Pelicula{" +
+				"id=" + id +
+				", titulo='" + titulo + '\'' +
+				", duracion=" + duracion +
+				", clasificacion='" + clasificacion + '\'' +
+				", genero='" + genero + '\'' +
+				", imagen='" + imagen + '\'' +
+				", fechaEstreno=" + fechaEstreno +
+				", estatus='" + estatus + '\'' +
+				", detalle=" + detalle +
+				'}';
 	}
-	
-	
-	
 }
