@@ -20,7 +20,7 @@
 
 <body>
 
-<jsp:include page="../includes/menu.jsp"/>
+<jsp:include page="includes/menu.jsp"/>
 
 <div class="container theme-showcase" role="main">
 
@@ -56,28 +56,26 @@
         <div class="form-group">
             <label class="col-sm-2 control-label">Tu experiencia en el sitio</label>
             <div class="col-sm-10">
-                <label><input type="radio" name="rating" value="1">Muy Mala</label>
-                <label><input type="radio" name="rating" value="2">Mala</label>
-                <label><input type="radio" name="rating" value="3">Regular</label>
-                <label><input type="radio" name="rating" value="4">Buena</label>
-                <label><input type="radio" name="rating" value="5">Muy Buena</label>
+                <label><form:radiobutton path="rating" value="1"/>Muy Mala</label>
+                <label><form:radiobutton path="rating" value="2"/>Mala</label>
+                <label><form:radiobutton path="rating" value="3"/>Regular</label>
+                <label><form:radiobutton path="rating" value="4"/>Buena</label>
+                <label><form:radiobutton path="rating" value="5"/>Muy Buena</label>
             </div>
         </div>
 
         <div class="form-group">
             <label class="col-sm-2 control-label">Te gustaría recibir notificaciones de:</label>
             <div class="col-sm-10">
-                <label><input type="checkbox" name="notificaciones" value="Estrenos">Estrenos</label>
-                <label><input type="checkbox" name="notificaciones" value="Promociones">Promociones</label>
-                <label><input type="checkbox" name="notificaciones" value="Noticias" >Noticias</label>
-                <label><input type="checkbox" name="notificaciones" value="Preventas">Preventas</label>
+
+                <form:checkboxes items="${tipos}" path="notificaciones" />
             </div>
         </div>
 
         <div class="form-group">
             <label class="col-sm-2 control-label">Comentarios:</label>
             <div class="col-sm-10">
-                <textarea class="form-control" name="comentarios" id="comentarios" rows="5"></textarea>
+                <form:textarea class="form-control" path="comentarios" id="comentarios" rows="5"/>
             </div>
         </div>
 
