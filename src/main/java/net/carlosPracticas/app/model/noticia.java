@@ -1,8 +1,14 @@
 package net.carlosPracticas.app.model;
 
+import javax.persistence.*;
 import java.util.Date;
 
+@Entity
+@Table(name = "Noticias")
 public class noticia {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String titulo;
     private Date fecha;

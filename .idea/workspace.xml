@@ -7,25 +7,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbb7839-d068-4db9-b2f5-a184b02234d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/HorariosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/Horario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/horarios/formHorario.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_12_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_2_12_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/orm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/NoticiasRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasjpa/AppConexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasjpa/AppCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasjpa/AppCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasjpa/AppDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasjpa/AppDeleteAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasjpa/AppExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasjpa/AppFindAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasjpa/AppFindAllById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasjpa/AppRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasjpa/AppUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_18_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_19_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/ContactoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/ContactoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/Contacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/Contacto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/contacto/formContacto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/formContacto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cineapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cineapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/noticia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/noticia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/carlosPracticas/app/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/carlosPracticas/app/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/carlosPracticas/app/model/Pelicula.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/carlosPracticas/app/model/Pelicula.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cineapp" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cineapp" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cineapp" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cineapp: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cineapp" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cineapp: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="Noticias: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cineapp" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -61,6 +153,7 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -72,23 +165,63 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\caste\Desktop\cineapp\src\main\resources" />
+      <recent name="C:\Users\caste\Desktop\cineapp\webapp\WEB-INF\views" />
+      <recent name="C:\Users\caste\Desktop\cineapp\webapp\WEB-INF\spring" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\caste\Desktop\cineapp\webapp\resources\images" />
       <recent name="C:\Users\caste\Desktop\cineapp\webapp\resources" />
       <recent name="C:\Users\caste\Desktop\cineapp\webapp\WEB-INF\lib" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\caste\Desktop\cineapp\webapp\WEB-INF\views" />
-      <recent name="C:\Users\caste\Desktop\cineapp\webapp\WEB-INF\spring" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AppCreate">
+    <configuration name="AppConexion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pruebasjpa.AppConexion" />
+      <module name="cineapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pruebasjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppCreate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pruebasjpa.AppCreate" />
+      <module name="cineapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pruebasjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pruebasjpa.AppRead" />
+      <module name="cineapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pruebasjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="tomcat" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -190,6 +323,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppCreate" />
+        <item itemvalue="Application.AppRead" />
+        <item itemvalue="Application.AppConexion" />
         <item itemvalue="Docker.TomcatContainer" />
       </list>
     </recent_temporary>
@@ -199,7 +335,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:cineapp" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:cineapp" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@31884435" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -238,7 +384,9 @@
       <workItem from="1581597817722" duration="65000" />
       <workItem from="1581612870512" duration="1367000" />
       <workItem from="1581674827647" duration="6477000" />
-      <workItem from="1581762139877" duration="4273000" />
+      <workItem from="1581762139877" duration="4343000" />
+      <workItem from="1581932621908" duration="6842000" />
+      <workItem from="1581957875585" duration="5630000" />
     </task>
     <task id="LOCAL-00001" summary="segundo">
       <created>1580993629910</created>
@@ -345,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581682684823</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="segundo">
+      <created>1581768072726</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1581768072726</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +511,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="segundo" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="553" y="199" key="#Assign_Data_Sources" timestamp="1581938107153">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="553" y="199" key="#Assign_Data_Sources/0.0.1920.1080@0.0.1920.1080" timestamp="1581938107153" />
     <state x="742" y="340" key="#BuildArtifactsBeforeRunChooser" timestamp="1580808147145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -398,11 +557,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="554" y="180" key="#Tomcat_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1580806886866" />
-    <state x="417" y="184" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581334403116">
+    <state x="417" y="184" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581936196389">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="417" y="177" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580986369490" />
-    <state x="417" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581334403116" />
+    <state x="417" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581936196389" />
     <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1581767052988">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -416,20 +575,21 @@
     </state>
     <state x="554" y="194" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1580820733190" />
     <state x="554" y="201" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1080@0.0.1920.1080" timestamp="1581252130779" />
-    <state x="744" y="442" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1580820833113">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="744" y="459" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1581961221299">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="744" y="442" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040@0.0.1920.1040" timestamp="1580820833113" />
+    <state x="744" y="459" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1080@0.0.1920.1080" timestamp="1581961221299" />
     <state x="655" y="160" width="618" height="731" key="#tomcat" timestamp="1581253201736">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="655" y="154" width="618" height="731" key="#tomcat/0.0.1920.1040@0.0.1920.1040" timestamp="1580821607827" />
     <state x="655" y="160" key="#tomcat/0.0.1920.1080@0.0.1920.1080" timestamp="1581253201736" />
-    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1581682684293">
+    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1581768072118">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="314" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993628389" />
-    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1581682684293" />
+    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1581768072118" />
     <state x="717" y="251" key="DetectedRootsChooserDialog" timestamp="1580818499174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -439,26 +599,26 @@
     </state>
     <state x="742" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580820717684" />
     <state x="742" y="288" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1581252127830" />
-    <state width="1294" height="297" key="GridCell.Tab.0.bottom" timestamp="1581255507846">
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom" timestamp="1581961317192">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507846" />
-    <state width="1294" height="297" key="GridCell.Tab.0.center" timestamp="1581255507846">
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581961317192" />
+    <state width="1878" height="267" key="GridCell.Tab.0.center" timestamp="1581961317192">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="297" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507846" />
-    <state width="1294" height="297" key="GridCell.Tab.0.left" timestamp="1581255507846">
+    <state width="1878" height="267" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581961317192" />
+    <state width="1878" height="267" key="GridCell.Tab.0.left" timestamp="1581961317192">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="297" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507846" />
-    <state width="1294" height="297" key="GridCell.Tab.0.right" timestamp="1581255507846">
+    <state width="1878" height="267" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581961317192" />
+    <state width="1878" height="267" key="GridCell.Tab.0.right" timestamp="1581961317192">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1294" height="297" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581255507846" />
+    <state width="1878" height="267" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581961317192" />
     <state width="1294" height="297" key="GridCell.Tab.1.bottom" timestamp="1581255507847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -519,15 +679,15 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="491" y="196" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581533810537" />
-    <state x="460" y="170" key="SettingsEditor" timestamp="1581331375993">
+    <state x="460" y="170" key="SettingsEditor" timestamp="1581961285179">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="460" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580986158267" />
-    <state x="460" y="170" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581331375993" />
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1581682689222">
+    <state x="460" y="170" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581961285179" />
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1581768079200">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581682689222" />
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581768079200" />
     <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1581254632815">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -536,36 +696,37 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/0.0.1920.1080@0.0.1920.1080" timestamp="1581255927456" />
-    <state x="656" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1581762185016">
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1581957877478">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580983760076" />
-    <state x="656" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581762185016" />
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581957877478" />
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1580819682035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580819682035" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581768055881">
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581964366776">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="766" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993610551" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581768055881" />
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581964366776" />
     <state x="383" y="217" key="new project wizard" timestamp="1580810465688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="383" y="217" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580810465688" />
-    <state x="619" y="252" key="run.anything.popup" timestamp="1581423005519">
+    <state x="620" y="253" key="run.anything.popup" timestamp="1581963566446">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="619" y="252" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581423005519" />
-    <state x="623" y="241" width="672" height="705" key="search.everywhere.popup" timestamp="1581766986858">
+    <state x="620" y="253" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581963566446" />
+    <state x="624" y="242" width="672" height="705" key="search.everywhere.popup" timestamp="1581963903839">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="620" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580987483334" />
-    <state x="623" y="241" width="672" height="705" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581766986858" />
-    <state x="628" y="218" key="spring file set editor" timestamp="1580986149099">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="624" y="242" width="672" height="705" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581963903839" />
+    <state x="628" y="226" key="spring file set editor" timestamp="1581961247284">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="628" y="218" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1580986149099" />
+    <state x="628" y="226" key="spring file set editor/0.0.1920.1080@0.0.1920.1080" timestamp="1581961247284" />
   </component>
 </project>

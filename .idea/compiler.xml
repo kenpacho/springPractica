@@ -9,8 +9,8 @@
         <module name="cineapp" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cineapp" target="1.13" />
+    <bytecodeTargetLevel target="8">
+      <module name="cineapp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
