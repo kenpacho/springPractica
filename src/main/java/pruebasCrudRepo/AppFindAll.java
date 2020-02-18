@@ -1,20 +1,21 @@
-package pruebasjpa;
+package pruebasCrudRepo;
 import net.carlosPracticas.app.model.noticia;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import net.carlosPracticas.app.repository.NoticiasRepository;
 
-import java.util.Optional;
-
-public class AppRead {
+public class AppFindAll {
 
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(("root-context.xml"));
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("root-context.xml");
         NoticiasRepository repo = context.getBean("noticiasRepository", NoticiasRepository.class);
 
-        //Operacion CRUD - Read [método findById del repositorio]
+        //Recuperar todos los registros [método findAll del repositorio].
 
-        Optional<noticia> noticia = repo.findById(1);
-        System.out.println(noticia);
+        Iterable <noticia> it = repo.findAll();
+
+        for(noticia n: it){
+            System.out.println(n);
+        }
 
 
         context.close();

@@ -1,4 +1,4 @@
-package pruebasjpa;
+package pruebasCrudRepo;
 import net.carlosPracticas.app.model.noticia;
 import net.carlosPracticas.app.repository.NoticiasRepository;
 import  org.springframework.context.support.ClassPathXmlApplicationContext;
