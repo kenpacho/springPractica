@@ -16,9 +16,19 @@ public interface NoticiasRepository extends JpaRepository<noticia, Integer> {
     List<noticia> findBy();
 
 
-    //Select + from Noticias where estatus=?
+         //Select + from Noticias where estatus=?
     List<noticia> findByEstatus(String estatus);
 
         //select * from Noticias where fecha =?.
     List<noticia> findByFecha(Date fecha);
+
+        //select * from Noticias where Estatus=? and Fecha=?
+    List<noticia> findByEstatusAndFecha(String estatus, Date fecha);
+
+        //select * from Noticias where Estatus=? or Fecha=?
+    List<noticia> findByEstatusOrFecha(String estatus, Date fecha);
+
+        //select * from Noticias where fecha between ? and ?.
+    List<noticia> findByFechaBetween(Date fecha1, Date fecha2);
+
 }

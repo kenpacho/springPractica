@@ -7,26 +7,25 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-public class AppKeywordAnd {
+public class AppKeywordBetween {
     public static void main(String[] args) {
-
-
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("root-context.xml");
         NoticiasRepository repo = context.getBean("noticiasRepository", NoticiasRepository.class);
 
-            //Ejemplo Keyword And.
+            //Ejemplo KeywordBetween
+
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
         List<noticia> lista=null;
 
         try{
-            lista = repo.findByEstatusAndFecha("Activa", format.parse("20019--009-088"));
+            lista = repo.findByFechaBetween (format.parse("2019-09-08"), format.parse( "2019-10-20"));
             for(noticia n: lista){
                 System.out.println(n);
             }
-
-        }catch (ParseException | NullPointerException e){
+        }catch (ParseException e){
             e.printStackTrace();
         }
+
 
         context.close();
     }
