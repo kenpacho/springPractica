@@ -1,14 +1,23 @@
 package net.carlosPracticas.app.model;
+import javax.persistence.*;
 import java.util.Date;
 
+@Entity
+@Table(name="Horarios")
 public class Horario {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private Date fecha;
     private String hora;
     private String sala;
     private double precio;
-    private Pelicula pelicuala;
+
+    //@Transient
+    @ManyToOne
+    @JoinColumn(name="idPelicula")
+    private Pelicula pelicula;
 
 
     public Horario() {
@@ -55,11 +64,11 @@ public class Horario {
     }
 
     public Pelicula getPelicuala() {
-        return pelicuala;
+        return pelicula;
     }
 
     public void setPelicuala(Pelicula pelicuala) {
-        this.pelicuala = pelicuala;
+        this.pelicula = pelicuala;
     }
 
 
@@ -71,7 +80,7 @@ public class Horario {
                 ", hora='" + hora + '\'' +
                 ", sala='" + sala + '\'' +
                 ", precio=" + precio +
-                ", pelicuala=" + pelicuala +
+                ", pelicula=" + pelicula +
                 '}';
     }
 }

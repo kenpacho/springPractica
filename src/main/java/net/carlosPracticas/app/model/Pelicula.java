@@ -1,9 +1,15 @@
 package net.carlosPracticas.app.model;
 
+import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
+@Entity
+@Table(name= "Peliculas")
 public class Pelicula {
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY) //auto_increment MyQSL
 	private int id;
 	private String titulo;
 	private int duracion;
@@ -13,7 +19,13 @@ public class Pelicula {
 	private Date fechaEstreno;	
 	private String estatus="Activa";
 
+	//@Transient // ignorar este atributo durante la persistencia.
+	@OneToOne
+	@JoinColumn(name="idDetalle")
 	private Detalle detalle;
+
+	@OneToMany(mappedBy = "pelicula", fetch = FetchType.EAGER)
+	private List<Horario> horarios;
 
 	public Pelicula(){
 
@@ -77,6 +89,14 @@ public class Pelicula {
 		this.estatus = estatus;
 	}
 
+	public List<Horario> getHorarios() {
+		return horarios;
+	}
+
+	public void setHorarios(List<Horario> horarios) {
+		this.horarios = horarios;
+	}
+
 	@Override
 	public String toString() {
 		return "Pelicula{" +
@@ -89,6 +109,7 @@ public class Pelicula {
 				", fechaEstreno=" + fechaEstreno +
 				", estatus='" + estatus + '\'' +
 				", detalle=" + detalle +
+				", horarios=" + horarios +
 				'}';
 	}
 }

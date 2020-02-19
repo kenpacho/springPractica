@@ -1,6 +1,14 @@
 package net.carlosPracticas.app.model;
+import javax.persistence.*;
 
+
+
+@Entity
+@Table(name="Detalles")
 public class Detalle {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int iid;
     private String director;
     private String actores;
