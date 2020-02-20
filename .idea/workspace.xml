@@ -7,35 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbb7839-d068-4db9-b2f5-a184b02234d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/DetallesServiceJPA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IDetalleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceJPA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/HorariosServiceJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IHorariosService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/PeliculasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/PeliculasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/HorariosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/HorariosRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/DetallesServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/DetallesServiceJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IDetalleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IDetalleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppConexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppConexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppCreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppDelete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppDeleteAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppDeleteAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppExists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppExists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppFindAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppFindAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppFindAllById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppFindAllById.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppDeleteAllInBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppDeleteAllInBatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppFindAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppFindAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppPaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppPaging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasQuery/AppKeywordAnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasQuery/AppKeywordAnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasQuery/AppKeywordBetween.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasQuery/AppKeywordBetween.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasQuery/AppKeywordFindBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasQuery/AppKeywordFindBy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppFindAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppFindAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppGetHorariosPelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppGetHorariosPelicula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppRepoDetalles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppRepoDetalles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppRepoHorarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppRepoHorarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/formPelicula.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/formPelicula.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iPeliculasService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iPeliculasService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/detalle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/detalle.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/listPeliculas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/listPeliculas.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,27 +52,6 @@
         <item name="cineapp" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="cineapp: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cineapp" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cineapp: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="Horarios: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cineapp" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cineapp: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="Noticias: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cineapp" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cineapp: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="Peliculas: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -150,7 +112,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -329,17 +291,12 @@
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="root:cineapp" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="root:cineapp" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@49fde03c" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -386,7 +343,8 @@
       <workItem from="1582020178712" duration="4399000" />
       <workItem from="1582056976277" duration="136000" />
       <workItem from="1582118333790" duration="6391000" />
-      <workItem from="1582191999227" duration="4288000" />
+      <workItem from="1582191999227" duration="4322000" />
+      <workItem from="1582221079813" duration="2808000" />
     </task>
     <task id="LOCAL-00001" summary="segundo">
       <created>1580993629910</created>
@@ -542,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582138751412</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="segundo">
+      <created>1582200478612</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1582200478612</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,11 +547,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="553" y="200" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1581251191509" />
-    <state x="554" y="201" key="#Project_Structure" timestamp="1581252621055">
+    <state x="554" y="201" key="#Project_Structure" timestamp="1582221125412">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="554" y="194" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1580983875634" />
-    <state x="554" y="201" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1581252621055" />
+    <state x="554" y="201" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1582221125412" />
     <state x="553" y="200" key="#Pull_Image" timestamp="1581254339071">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -604,10 +569,10 @@
     </state>
     <state x="417" y="177" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580986369490" />
     <state x="417" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582196987955" />
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1582198255027">
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1582222864882">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582198255027" />
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582222864882" />
     <state x="588" y="211" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1580986099412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -631,11 +596,11 @@
     </state>
     <state x="655" y="154" width="618" height="731" key="#tomcat/0.0.1920.1040@0.0.1920.1040" timestamp="1580821607827" />
     <state x="655" y="160" key="#tomcat/0.0.1920.1080@0.0.1920.1080" timestamp="1581253201736" />
-    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1582138750849">
+    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1582200477805">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="314" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993628389" />
-    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582138750849" />
+    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582200477805" />
     <state x="717" y="251" key="DetectedRootsChooserDialog" timestamp="1580818499174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -645,26 +610,26 @@
     </state>
     <state x="742" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580820717684" />
     <state x="742" y="288" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1581252127830" />
-    <state width="1878" height="267" key="GridCell.Tab.0.bottom" timestamp="1581964395055">
+    <state width="1294" height="80" key="GridCell.Tab.0.bottom" timestamp="1582222672149">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581964395055" />
-    <state width="1878" height="267" key="GridCell.Tab.0.center" timestamp="1581964395055">
+    <state width="1294" height="80" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582222672149" />
+    <state width="1294" height="80" key="GridCell.Tab.0.center" timestamp="1582222672149">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1878" height="267" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581964395055" />
-    <state width="1878" height="267" key="GridCell.Tab.0.left" timestamp="1581964395055">
+    <state width="1294" height="80" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582222672149" />
+    <state width="1294" height="80" key="GridCell.Tab.0.left" timestamp="1582222672149">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1878" height="267" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581964395055" />
-    <state width="1878" height="267" key="GridCell.Tab.0.right" timestamp="1581964395055">
+    <state width="1294" height="80" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582222672149" />
+    <state width="1294" height="80" key="GridCell.Tab.0.right" timestamp="1582222672149">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1280" height="45" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580993495550" />
-    <state width="1878" height="267" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581964395055" />
+    <state width="1294" height="80" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582222672149" />
     <state width="1294" height="297" key="GridCell.Tab.1.bottom" timestamp="1581255507847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -730,10 +695,14 @@
     </state>
     <state x="460" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580986158267" />
     <state x="460" y="170" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582197042860" />
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1582138753305">
+    <state width="498" height="448" key="SwitcherDM" timestamp="1582223751294">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582138753305" />
+    <state width="498" height="448" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1582223751294" />
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1582200480332">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582200480332" />
     <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1581254632815">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -742,20 +711,20 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/0.0.1920.1080@0.0.1920.1080" timestamp="1581255927456" />
-    <state x="656" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1582192020643">
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1582221114292">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580983760076" />
-    <state x="656" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582192020643" />
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582221114292" />
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1580819682035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580819682035" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582200459766">
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582223916330">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="766" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993610551" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582200459766" />
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582223916330" />
     <state x="383" y="217" key="new project wizard" timestamp="1580810465688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

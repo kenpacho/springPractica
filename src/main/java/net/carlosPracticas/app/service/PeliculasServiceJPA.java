@@ -32,7 +32,7 @@ public class PeliculasServiceJPA implements iPeliculasService{
         if(optional.isPresent() ){
             return optional.get();
         }
-        return null;s
+        return null;
     }
 
     @Override
@@ -51,5 +51,11 @@ public class PeliculasServiceJPA implements iPeliculasService{
         generos.add("Ciencia Ficcion");
 
         return generos;
+    }
+
+    @Override
+    public void eliminar(int idPelicula) {
+        peliculasRepo.deleteById(idPelicula);
+
     }
 }

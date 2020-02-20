@@ -120,4 +120,9 @@ public class PeliculasServiceImpl implements iPeliculasService{
 
         return generos;
     }
+
+    @Override
+    public void eliminar(int idPelicula) {
+
+    }
 }
