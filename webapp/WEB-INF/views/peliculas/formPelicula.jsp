@@ -47,7 +47,7 @@
     <div class="row">
         <div class="col-sm-3">
             <div class="form-group">
-                <img class="img-rounded" src="${urlPublic}/images/${pelicula.imagen}" title="Imagen actual de la pelicula" width="150" height="200">
+                <img class="img-rounded" src="${urlPublic}/images/${pelicula.imagen}" title="Imagen actual de la pelicula" width="150" height="200" alt="">
             </div>
         </div>
     </div>
@@ -57,6 +57,7 @@
                 <div class="form-group">
                     <label for="titulo">Título</label>
                     <form:hidden path="id"/>
+                    <form:hidden path="detalle.id"/>
                     <form:input type="text" class="form-control" path="titulo" id="titulo" required="required" />
                 </div>
             </div>

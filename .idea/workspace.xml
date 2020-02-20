@@ -7,17 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbb7839-d068-4db9-b2f5-a184b02234d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/DetallesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/HorariosRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/PeliculasRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppFindAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppGetHorariosPelicula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppRepoDetalles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppRepoHorarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/DetallesServiceJPA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IDetalleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceJPA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/Detalle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/Detalle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/Horario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/Pelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/PeliculasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/PeliculasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppConexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppConexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppDeleteAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppDeleteAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppExists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppExists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppFindAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppFindAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppFindAllById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppFindAllById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasCrudRepo/AppUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppDeleteAllInBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppDeleteAllInBatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppFindAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppFindAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppPaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppPaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasJpaRepo/AppSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasQuery/AppKeywordAnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasQuery/AppKeywordAnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasQuery/AppKeywordBetween.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasQuery/AppKeywordBetween.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasQuery/AppKeywordFindBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasQuery/AppKeywordFindBy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppFindAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppFindAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppGetHorariosPelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppGetHorariosPelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppRepoDetalles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppRepoDetalles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppRepoHorarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebasRelaciones/AppRepoHorarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/formPelicula.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/formPelicula.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/listPeliculas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/listPeliculas.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,24 +150,24 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\caste\Desktop\cineapp\src\main\resources" />
-      <recent name="C:\Users\caste\Desktop\cineapp\webapp\WEB-INF\views" />
-      <recent name="C:\Users\caste\Desktop\cineapp\webapp\WEB-INF\spring" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\caste\Desktop\cineapp\webapp\resources\images" />
       <recent name="C:\Users\caste\Desktop\cineapp\webapp\resources" />
       <recent name="C:\Users\caste\Desktop\cineapp\webapp\WEB-INF\lib" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\caste\Desktop\cineapp\webapp\WEB-INF\spring" />
+      <recent name="C:\Users\caste\Desktop\cineapp\src\main\resources" />
+      <recent name="C:\Users\caste\Desktop\cineapp\webapp\WEB-INF\views" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.AppCreate">
+  <component name="RunManager" selected="Docker.TomcatContainer">
     <configuration name="AppConexion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pruebasCrudRepo.AppConexion" />
       <module name="cineapp" />
@@ -287,12 +306,18 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.AppConexion" />
+      <item itemvalue="Application.AppCreate" />
+      <item itemvalue="Application.AppRead" />
+      <item itemvalue="Docker.TomcatContainer" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.TomcatContainer" />
         <item itemvalue="Application.AppCreate" />
         <item itemvalue="Application.AppRead" />
         <item itemvalue="Application.AppConexion" />
-        <item itemvalue="Docker.TomcatContainer" />
       </list>
     </recent_temporary>
   </component>
@@ -304,12 +329,17 @@
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:cineapp" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:cineapp" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@31884435" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -355,7 +385,8 @@
       <workItem from="1581957875585" duration="5663000" />
       <workItem from="1582020178712" duration="4399000" />
       <workItem from="1582056976277" duration="136000" />
-      <workItem from="1582118333790" duration="6362000" />
+      <workItem from="1582118333790" duration="6391000" />
+      <workItem from="1582191999227" duration="4288000" />
     </task>
     <task id="LOCAL-00001" summary="segundo">
       <created>1580993629910</created>
@@ -504,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582120379620</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="segundo">
+      <created>1582138751412</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1582138751412</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,15 +599,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="554" y="180" key="#Tomcat_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1580806886866" />
-    <state x="417" y="184" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581936196389">
+    <state x="417" y="184" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582196987955">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="417" y="177" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580986369490" />
-    <state x="417" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581936196389" />
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1582138465426">
+    <state x="417" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582196987955" />
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1582198255027">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582138465426" />
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582198255027" />
     <state x="588" y="211" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1580986099412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -584,16 +622,20 @@
     </state>
     <state x="744" y="442" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040@0.0.1920.1040" timestamp="1580820833113" />
     <state x="744" y="459" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1080@0.0.1920.1080" timestamp="1581961221299" />
+    <state x="779" y="503" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1582197041481">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="779" y="503" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582197041481" />
     <state x="655" y="160" width="618" height="731" key="#tomcat" timestamp="1581253201736">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="655" y="154" width="618" height="731" key="#tomcat/0.0.1920.1040@0.0.1920.1040" timestamp="1580821607827" />
     <state x="655" y="160" key="#tomcat/0.0.1920.1080@0.0.1920.1080" timestamp="1581253201736" />
-    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1582120379069">
+    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1582138750849">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="314" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993628389" />
-    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582120379069" />
+    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582138750849" />
     <state x="717" y="251" key="DetectedRootsChooserDialog" timestamp="1580818499174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -683,15 +725,15 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="491" y="196" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581533810537" />
-    <state x="460" y="170" key="SettingsEditor" timestamp="1581961285179">
+    <state x="460" y="170" key="SettingsEditor" timestamp="1582197042860">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="460" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580986158267" />
-    <state x="460" y="170" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581961285179" />
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1582120382622">
+    <state x="460" y="170" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582197042860" />
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1582138753305">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582120382622" />
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582138753305" />
     <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1581254632815">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -700,20 +742,20 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/0.0.1920.1080@0.0.1920.1080" timestamp="1581255927456" />
-    <state x="656" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1582118334796">
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1582192020643">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580983760076" />
-    <state x="656" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582118334796" />
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582192020643" />
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1580819682035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580819682035" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582138736343">
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582200459766">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="766" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993610551" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582138736343" />
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582200459766" />
     <state x="383" y="217" key="new project wizard" timestamp="1580810465688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

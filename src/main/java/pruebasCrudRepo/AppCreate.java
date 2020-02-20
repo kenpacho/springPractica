@@ -11,7 +11,7 @@ public class AppCreate {
         noticia.setTitulo("Próximo Estreno: SAW 8");
         noticia.setDetalle("El mes de septiembre se estrena a nueva entrega de SAW 8");
 
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("root-context.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("WEB-INF/spring/root-context.xml");
         NoticiasRepository repo= context.getBean("noticiasRepository", NoticiasRepository.class);
         repo.save(noticia);
 

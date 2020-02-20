@@ -8,7 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.LinkedList;
 import java.util.List;
 
-@Service
+//@Service
 public class PeliculasServiceImpl implements iPeliculasService{
 
      private List<Pelicula> lista = null;

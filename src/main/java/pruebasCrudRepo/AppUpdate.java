@@ -8,7 +8,7 @@ import java.util.Optional;
 public class AppUpdate {
 
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("root-context.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("WEB-INF/spring/root-context.xml");
         NoticiasRepository repo = context.getBean("noticiasRepository",  NoticiasRepository.class);
 
         //Operación CRUD - Update [método save del repositorio]

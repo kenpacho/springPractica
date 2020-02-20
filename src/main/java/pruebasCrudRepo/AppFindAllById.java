@@ -9,7 +9,7 @@ import java.util.List;
 
 public class AppFindAllById {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("root-context.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("WEB-INF/spring/root-context.xml");
         NoticiasRepository repo = context.getBean("noticiaRepository", NoticiasRepository.class);
 
         //Recuperar varios registros por Id [método FindAllById del repositorio]

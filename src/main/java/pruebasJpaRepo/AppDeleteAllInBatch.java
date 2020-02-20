@@ -1,11 +1,10 @@
 package pruebasJpaRepo;
-import com.sun.tools.javac.tree.JCTree;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import net.carlosPracticas.app.repository.NoticiasRepository;
 
 public class AppDeleteAllInBatch {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("root-context.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("WEB-INF/spring/root-context.xml");
         NoticiasRepository repo = context.getBean("noticiasRepository", NoticiasRepository.class);
 
         /* Método deleteAllInBatch de la interfaz JpaRepository --> (más eficiente)

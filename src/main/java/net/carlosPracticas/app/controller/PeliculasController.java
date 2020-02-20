@@ -1,6 +1,7 @@
 package net.carlosPracticas.app.controller;
 
 import net.carlosPracticas.app.model.Pelicula;
+import net.carlosPracticas.app.service.IDetalleService;
 import net.carlosPracticas.app.service.iPeliculasService;
 import net.carlosPracticas.app.util.utiles;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,10 @@ import java.util.List;
 @Controller
 @RequestMapping("/peliculas")
 public class PeliculasController {
+
+    @Autowired
+    private IDetalleService serviceDetalles;
+
     @Autowired
     private iPeliculasService servicePeliculas;
 
@@ -35,8 +40,6 @@ public class PeliculasController {
 
     @GetMapping("/create")
     public String crear(@ModelAttribute Pelicula pelicula, Model model) {
-        model.addAttribute("generos", servicePeliculas.buscarGeneros());
-
         return "peliculas/formPelicula";
     }
 
@@ -45,7 +48,6 @@ public class PeliculasController {
         if(result.hasErrors()) {
             System.out.println("Se han producido errores");
             return "peliculas/formPelicula";
-
 
         }
 
@@ -56,14 +58,24 @@ public class PeliculasController {
         }
 
 
+        serviceDetalles.insertar(pelicula.getDetalle());
+
         servicePeliculas.insertar(pelicula);
         attributes.addFlashAttribute("mensaje", "El registro  fue guardado");
         return "redirect:/peliculas/index";
     }
 
+    @GetMapping(value="/edit/{id}")
+    public String editar(@PathVariable("id") int idPelicula, Model model){
+        Pelicula pelicula = servicePeliculas.buscarPorId(idPelicula);
+        model.addAttribute("pelicula", pelicula);
+        return "peliculas/formPelicula";
+    }
 
-
-
+    @ModelAttribute("generos")
+    public List<String> getGeneros(){
+        return servicePeliculas.buscarGeneros();
+    }
 
     @InitBinder
     public void initBinder (WebDataBinder binder){
