@@ -6,6 +6,7 @@ import net.carlosPracticas.app.service.iPeliculasService;
 import net.carlosPracticas.app.util.utiles;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -16,6 +17,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import javax.servlet.http.HttpServletRequest;
+import java.awt.print.Pageable;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -38,14 +40,22 @@ public class PeliculasController {
         return"peliculas/listPeliculas";
     }
 
+    @GetMapping(value="/indexPaginate")
+    public String mostrarIndexPaginado(Model model, Pageable page){
+        Page<Pelicula> lista = servicePeliculas.buscarTodas(page);
+        model.addAttribute("peliculas", lista);
+        return "peliculas/listPeliculas";
+    }
+
     @GetMapping("/create")
-    public String crear(@ModelAttribute Pelicula pelicula, Model model) {
+    public String crear(@ModelAttribute Pelicula pelicula) {
         return "peliculas/formPelicula";
     }
 
     @PostMapping("/save")
-    public String guardar (@ModelAttribute Pelicula pelicula, BindingResult result, RedirectAttributes attributes, @RequestParam("archivoImagen") MultipartFile multiPart, HttpServletRequest request){
+    public String guardar (@ModelAttribute Pelicula pelicula, BindingResult result, Model model, @RequestParam("archivoImagen") MultipartFile multiPart, HttpServletRequest request, RedirectAttributes attributes){
         if(result.hasErrors()) {
+
             System.out.println("Se han producido errores");
             return "peliculas/formPelicula";
 
@@ -53,16 +63,16 @@ public class PeliculasController {
 
         if(!multiPart.isEmpty()){
             String nombreImagen= utiles.guardarImagen(multiPart, request);
-            pelicula.setImagen(nombreImagen);
-
+            if(nombreImagen!=null){
+                pelicula.setImagen(nombreImagen);
+            }
         }
-
 
         serviceDetalles.insertar(pelicula.getDetalle());
 
         servicePeliculas.insertar(pelicula);
-        attributes.addFlashAttribute("mensaje", "El registro  fue guardado");
-        return "redirect:/peliculas/index";
+        attributes.addFlashAttribute("msg", "Los datos de la pelicula fueron guardados!");
+        return "redirect:/peliculas/indexPaginate";
     }
 
     @GetMapping(value="/edit/{id}")
@@ -82,7 +92,7 @@ public class PeliculasController {
         serviceDetalles.eliminar(pelicula.getDetalle().getIid());
 
         attributes.addFlashAttribute("mensaje", "La película fue eliminada!");
-        return "redirect:/peliculas/index";
+        return "redirect:/peliculas/indexPaginate";
     }
 
     @ModelAttribute("generos")
@@ -91,8 +101,8 @@ public class PeliculasController {
     }
 
     @InitBinder
-    public void initBinder (WebDataBinder binder){
+    public void initBinder (WebDataBinder webDataBinder){
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
-        binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat,false));
+        webDataBinder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat,true));
     }
 }

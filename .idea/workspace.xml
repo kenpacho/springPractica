@@ -7,19 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbb7839-d068-4db9-b2f5-a184b02234d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/HorariosServiceJpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IHorariosService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/BannersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/BannerSerivceJPA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/BannersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/BannersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/ContactoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/ContactoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/HorariosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/HorariosController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/PeliculasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/PeliculasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/noticiasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/noticiasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/Banner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/HorariosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/HorariosRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/DetallesServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/DetallesServiceJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IDetalleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IDetalleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/NoticiasRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/NoticiasRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/PeliculasRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/PeliculasRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/HorariosServiceJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/HorariosServiceJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IBannersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IBannersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IHorariosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IHorariosService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iNoticiasService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iNoticiasService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iPeliculasService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iPeliculasService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/detalle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/detalle.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/listPeliculas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/listPeliculas.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,17 +293,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:cineapp" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:cineapp" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@49fde03c" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -344,7 +339,8 @@
       <workItem from="1582056976277" duration="136000" />
       <workItem from="1582118333790" duration="6391000" />
       <workItem from="1582191999227" duration="4322000" />
-      <workItem from="1582221079813" duration="2808000" />
+      <workItem from="1582221079813" duration="2865000" />
+      <workItem from="1582279501808" duration="6315000" />
     </task>
     <task id="LOCAL-00001" summary="segundo">
       <created>1580993629910</created>
@@ -507,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582200478612</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="segundo">
+      <created>1582223928340</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1582223928340</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,10 +572,10 @@
     </state>
     <state x="417" y="177" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580986369490" />
     <state x="417" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582196987955" />
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1582222864882">
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1582289673184">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582222864882" />
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582289673184" />
     <state x="588" y="211" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1580986099412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -596,11 +599,11 @@
     </state>
     <state x="655" y="154" width="618" height="731" key="#tomcat/0.0.1920.1040@0.0.1920.1040" timestamp="1580821607827" />
     <state x="655" y="160" key="#tomcat/0.0.1920.1080@0.0.1920.1080" timestamp="1581253201736" />
-    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1582200477805">
+    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1582223927686">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="314" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993628389" />
-    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582200477805" />
+    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582223927686" />
     <state x="717" y="251" key="DetectedRootsChooserDialog" timestamp="1580818499174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -699,10 +702,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="448" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1582223751294" />
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1582200480332">
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1582223931190">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582200480332" />
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582223931190" />
     <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1581254632815">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -711,33 +714,33 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/0.0.1920.1080@0.0.1920.1080" timestamp="1581255927456" />
-    <state x="656" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1582221114292">
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1582279506747">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580983760076" />
-    <state x="656" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582221114292" />
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582279506747" />
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1580819682035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580819682035" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582223916330">
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582289973204">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="766" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993610551" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582223916330" />
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582289973204" />
     <state x="383" y="217" key="new project wizard" timestamp="1580810465688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="383" y="217" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580810465688" />
-    <state x="620" y="253" key="run.anything.popup" timestamp="1581963566446">
+    <state x="622" y="255" key="run.anything.popup" timestamp="1582281247552">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="620" y="253" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581963566446" />
-    <state x="626" y="244" width="672" height="705" key="search.everywhere.popup" timestamp="1582118693993">
+    <state x="622" y="255" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582281247552" />
+    <state x="628" y="246" width="672" height="705" key="search.everywhere.popup" timestamp="1582286793632">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="620" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580987483334" />
-    <state x="626" y="244" width="672" height="705" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582118693993" />
+    <state x="628" y="246" width="672" height="705" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582286793632" />
     <state x="628" y="226" key="spring file set editor" timestamp="1581961247284">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

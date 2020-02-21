@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -19,29 +20,21 @@ public class ContactoController {
     iPeliculasService servicePeliculas;
 
     @GetMapping("/contacto")
-    public String mostrarFormulario(@ModelAttribute Contacto contacto, Model model){
-        model.addAttribute("generos", servicePeliculas.buscarGeneros());
-        model.addAttribute("tipos", tipoNotificaciones());
-
+    public String mostrarFormulario(@ModelAttribute("instanciaContacto") Contacto contacto){
         return "formContacto";
     }
 
-    @PostMapping("/contacto")
-    public String guardar(@ModelAttribute Contacto contacto){
-        //Este objeto ya se podria almacenar en BBDD
-
-        System.out.println(contacto);
+    @GetMapping("/contacto")
+    public String guardar(@ModelAttribute("instanciaContacto") Contacto contacto, RedirectAttributes attributes){
+        // El objeto de modelo contacto podria ser almacenadoo en la BBDD.
+        System.out.println("Guardando datos del usuario: " + contacto);
+        attributes.addFlashAttribute("msg", "Gracias por enviarnos tu opinión!");
         return "redirect:/contacto";
-
     }
 
-    private List<String> tipoNotificaciones(){
-        List<String> tipos= new LinkedList<>();
-        tipos.add("Estrenos");
-        tipos.add("Promociones");
-        tipos.add("Noticias");
-        tipos.add("Eventos");
-        return tipos;
+    @ModelAttribute("generos")
+    public List<String> getGeneros(){
+        return servicePeliculas.buscarGeneros();
     }
 
 }

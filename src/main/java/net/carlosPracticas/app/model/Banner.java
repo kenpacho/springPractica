@@ -1,13 +1,25 @@
 package net.carlosPracticas.app.model;
 
+import javax.persistence.*;
 import java.util.Date;
 
+
+@Entity
+@Table(name = "Banners")
 public class Banner {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String titulo;
     private Date fecha;
     private String archivo;
     private String estatus;
+
+    public Banner(){
+        this.fecha = new Date();
+        this.estatus = "Activo";
+    }
 
     public int getId() {
         return id;
@@ -49,11 +61,6 @@ public class Banner {
         this.estatus = estatus;
     }
 
-    public Banner(){
-        this.fecha=new Date();
-        this.estatus="Activo";
-
-    }
 
 
     @Override

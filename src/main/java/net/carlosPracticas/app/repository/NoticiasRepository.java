@@ -31,4 +31,10 @@ public interface NoticiasRepository extends JpaRepository<noticia, Integer> {
         //select * from Noticias where fecha between ? and ?.
     List<noticia> findByFechaBetween(Date fecha1, Date fecha2);
 
+        //select * from Noticias where id between ? and ?.
+    List<noticia> findByIdBetween(int n1, int n2);
+
+        //select * from Noticias where estatus = ? order by id desc limit 3.
+    List<noticia> findTop3ByEstatusOrderByIdDesc(String estatus);
+
 }
