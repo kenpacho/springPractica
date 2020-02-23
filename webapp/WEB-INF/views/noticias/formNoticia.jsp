@@ -1,4 +1,5 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,6 +11,7 @@
     <meta name="author" content="">
     <title>Creacion de Noticias</title>
     <spring:url value="/resources" var="urlPublic"> </spring:url>
+    <spring:url value="/noticias/save" var="urlForm"/>
     <link href="${urlPublic}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="${urlPublic}/bootstrap/css/theme.css" rel="stylesheet">
 
@@ -24,21 +26,23 @@
     <h3 class="blog-title"><span class="label label-success">Datos de la Noticia</span></h3>
 
     <spring:url value="/noticias/save" var="urlForm"> </spring:url>
-    <form action="${urlForm}" method="post">
+
+    <form:form action="${urlForm}" method="post" modelAttribute="noticia">
         <div class="row">
             <div class="col-sm-6">
                 <div class="form-group">
                     <label for="titulo">Titulo</label>
-                    <input type="text" class="form-control" name="titulo" id="titulo" required="required"/>
+                    <form:hidden path="id"/>
+                    <form:input class="form-control" path="titulo" id="titulo" required="required"/>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="form-group">
                     <label for="estatus">Estatus</label>
-                    <select id="estatus" name="estatus" class="form-control">
-                        <option value="Activa">Activa</option>
-                        <option value="Inactiva">Inactiva</option>
-                    </select>
+                    <form:select id="estatus" path="estatus" class="form-control">
+                        <form:option value="Activa">Activa</form:option>
+                        <form:option value="Inactiva">Inactiva</form:option>
+                    </form:select>
                 </div>
             </div>
         </div>
@@ -46,13 +50,13 @@
             <div class="col-sm-12">
                 <div class="form-group">
                     <label for="detalle">Detalles</label>
-                    <textarea class="form-control" name="detalle" id="detalle" rows="10"></textarea>
+                    <form:textarea class="form-control" path="detalle" id="detalle" rows="10"/>
                 </div>
             </div>
         </div>
 
         <button type="submit" class="btn btn-danger" >Guardar</button>
-    </form>
+    </form:form>
 
     <hr class="featurette-divider">
 

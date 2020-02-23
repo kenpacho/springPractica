@@ -11,26 +11,26 @@
     <meta name="author" content="">
     <title>Listado de Peliculas</title>
     <spring:url value="/resources" var="urlPublic"/>
-    <spring:url value="/peliculas/create" var="urlCreate" />
-    <spring:url value="/peliculas/edit" var="urlEdit" />
-    <spring:url value="/peliculas/delete" var="urlDelete"/>
+    <spring:url value="/peliculas" var="urlPeliculas"/>
     <link href="${urlPublic}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="${urlPublic}/bootstrap/css/them.css" rel="stylesheet">
 
 </head>
 
 <body>
-<jsp:include page="../includes/menu.jsp"> </jsp:include>
-<div class="container theme-showcase" role="main">
+    <jsp:include page="../includes/menu.jsp"> </jsp:include>
+
+    <div class="container theme-showcase" role="main">
     <h3>Listado de Peliculas</h3>
 
-    <c:if test="${mensaje!= null}">
+    <c:if test="${msg!= null}">
 
-        <div class='alert alert-success' role="alert">${mensaje}</div>
+        <div class='alert alert-success' role="alert">${msg}</div>
 
     </c:if>
 
-    <a href="${urlCreate}" class="btn btn-success" role="button" title="Nueva Pelicula">Nueva</a><br><br>
+    <a href="${urlPeliculas}" class="btn btn-success" role="button" title="Nueva Pelicula">Nueva</a><br><br>
+
     <div class="table-responsive">
         <table class="table table-hover table-striped table-bordered">
             <tr>
@@ -43,7 +43,7 @@
                 <th>Opciones</th>
             </tr>
 
-            <c:forEach var="pelicula" items="${peliculas}">
+            <c:forEach var="pelicula" items="${peliculas.content}">
                 <tr>
                     <td>${pelicula.titulo}</td>
                     <td>${pelicula.genero}</td>
@@ -60,8 +60,8 @@
                                 </c:otherwise>
                             </c:choose>
                     <td>
-                        <a href="${urlEdit}/${pelicula.id}" class="btn btn-success btn-sm" role="button" title="Edit"><span class="glyphicon glyphicon-pencil"></span></a>
-                        <a href="${urlDelete}/${pelicula.id}" onclick= 'return confirm("¿Estas seguro?")' class="btn btn-danger btn-sm" role="button" title="Eliminar"><span class="glyphicon glyphicon-trash"></span> </a>
+                        <a href="${urlPeliculas}/edit/${pelicula.id}" class="btn btn-success btn-sm" role="button" title="Edit"><span class="glyphicon glyphicon-pencil"></span></a>
+                        <a href="${urlPeliculas}/delete/${pelicula.id}" onclick= 'return confirm("¿Estas seguro?")' class="btn btn-danger btn-sm" role="button" title="Eliminar"><span class="glyphicon glyphicon-trash"></span> </a>
                     </td>
                 </tr>
             </c:forEach>
@@ -69,6 +69,13 @@
 
         </table>
     </div>
+        <nav aria-label="">
+            <ul class="pager">
+                <li><a href="${urlPeliculas}/indexPaginate?page=${peliculas.number - 1}">Anterior</a></li>
+                <li><a href="${urlPeliculas}/indexPaginate?page=${peliculas.number + 1}">Siguiente</a> </li>
+            </ul>
+        </nav>
+
     <hr class="featurette-divider">
     <jsp:include page="../includes/footer.jsp"> </jsp:include>
 

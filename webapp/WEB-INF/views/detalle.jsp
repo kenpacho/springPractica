@@ -1,5 +1,6 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,15 +10,16 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<title>Detalles de la pelicula</title>
-	<spring:url value="/resources" var="urlPublic"/>
+	<spring:url value="/resources" var="urlPublic" />
+
 	<link href="${urlPublic}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="${urlPublic}/bootstrap/css/theme.css" rel="stylesheet">
 
 </head>
 
 <body>
-	<jsp:include page="includes/menu.jsp"/>
 
+<jsp:include page="includes/menu.jsp"/>
 
 <div class="container theme-showcase" role="main">
 
@@ -40,15 +42,14 @@
 					</div>
 					<div class="panel-body">
 						<p>
-							Titulo Original : ${pelicula.titulo} <br>
-							Actores :${pelicula.detalle.actores}  <br>
-							Director:${pelicula.detalle.director} <br>
-							Clasificacion: ${pelicula.clasificacion} <br>
-							Duracion: ${pelicula.duracion}<br>
-							Genero: ${pelicula.genero} <br>
-							Fecha Estreno: ${pelicula.fechaEstreno}
+							Título Original : ${pelicula.titulo} <br>
+							Actores : ${pelicula.detalle.actores} <br>
+							Director: ${pelicula.detalle.director} <br>
+							Clasificación: ${pelicula.clasificacion} <br>
+							Duración: ${pelicula.duracion} minutos <br>
+							Género: ${pelicula.genero} <br>
+							Fecha Estreno: <fmt:formatDate pattern="dd-MM-yyyy" value="${pelicula.fechaEstreno}" />
 						</p>
-
 					</div>
 				</div>
 			</div>
@@ -68,21 +69,17 @@
 					</tr>
 					</thead>
 					<tbody>
-					<c:forEach items="${horarios}" var="horario">
+					<c:forEach var="horario" items="${horarios}">
 						<tr>
-
 							<td>${horario.hora}</td>
 							<td>${horario.sala}</td>
-							<td>€${horario.precio}</td>
-
+							<td>$${horario.precio}</td>
 						</tr>
-
 					</c:forEach>
 					</tbody>
 				</table>
 			</div>
 		</div>
-
 
 		<div class="row">
 			<div class="col-sm-7">

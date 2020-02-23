@@ -8,6 +8,6 @@ public interface iNoticiasService {
         void guardar(noticia noticia);
         List<noticia> buscarUltimas();
         List<noticia> buscarTodas();
-        void elimianr(int idNoticia);
+        void eliminar(int idNoticia);
         noticia buscarPorId(int idNoticia);
     }

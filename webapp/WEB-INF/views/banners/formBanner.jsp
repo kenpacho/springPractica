@@ -1,4 +1,6 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,36 +25,53 @@
 
     <h3 class="blog-title"><span class="label label-success">Datos de la imagen</span></h3>
 
-    <form action="${urlForm}" method="post" enctype="multipart/form-data">
+    <form:form action="${urlForm}" method="post" modelAttribute="bannerr" enctype="multipart/form-data">
         <div class="row">
             <div class="col-sm-6">
-                <div class="form-group">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img class="img-responsive" src="${urlPublic}/images/${banner.archivo}" title="Vista preliminar">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="row">
+        <div class="form-group">
                     <label for="titulo">Titulo</label>
-                    <input type="text" class="form-control" name="titulo" id="titulo" required="true"/>
+                    <form:hidden path="id"/>
+                    <form:input type="text" class="form-control" path="titulo" id="titulo" required="true"/>
                 </div>
             </div>
 
             <div class="col-sm-3">
                 <div class="form-group">
-                    <label for="archivoImagen">Imagen</label>
-                    <input type="file" id="archivoImagen" name="archivoImagen" required="true"/>
-                    <p class="help-block">Tamaño recomendado: 1140 x 250 </p>
+                    <label for="imagen">Imagen</label>
+                    <c:choose>
+                        <c:when test="${banner.id==0}">
+                            <input type="file" id="archivoImagen" name="archivoImagen" required="required"/>
+                        </c:when>
+                        <c:otherwise>
+                            <input type="file" id="archivoImagen" name="archivoImagen"/>
+                        </c:otherwise>
+                    </c:choose>
+                    <form:hidden path="archivo"/>
+                    <p class="help-block">Tamaño recomendado: 1140 x 250</p>
                 </div>
             </div>
 
             <div class="col-sm-3">
                 <div class="form-group">
                     <label for="estatus">Estatus</label>
-                    <select id="estatus" name="estatus" class="form-control">
-                        <option value="Activo">Activo</option>
-                        <option value="Inactivo">Inactivo</option>
-                    </select>
+                    <form:select id="estatus" path="estatus" class="form-control">
+                        <form:option value="Activo">Activo</form:option>
+                        <form:option value="Inactivo">Inactivo</form:option>
+                    </form:select>
                 </div>
             </div>
         </div>
 
         <button type="submit" class="btn btn-danger" >Guardar</button>
-    </form>
+    </form:form>
 
     <hr class="featurette-divider">
 

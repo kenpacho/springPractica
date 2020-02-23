@@ -2,7 +2,7 @@ package net.carlosPracticas.app.service;
 
 import net.carlosPracticas.app.model.Pelicula;
 import org.springframework.data.domain.Pageable;
-import sun.jvm.hotspot.debugger.Page;
+import org.springframework.data.domain.Page;
 
 import java.util.Date;
 import java.util.List;

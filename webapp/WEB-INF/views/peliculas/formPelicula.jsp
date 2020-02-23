@@ -40,9 +40,8 @@
         </div>
     </spring:hasBindErrors>
 
-    ${pelicula}
     <%--@elvariable id="pelicula" type=""--%>
-    <form:form action="${urlForm}" method="post" enctype="multipart/form-data" modelAttribute="pelicula">
+    <form:form action="${urlForm}" method="POST" enctype="multipart/form-data" modelAttribute="pelicula">
     
     <div class="row">
         <div class="col-sm-3">
@@ -56,8 +55,8 @@
             <div class="col-sm-3">
                 <div class="form-group">
                     <label for="titulo">Título</label>
-                    <form:hidden path="id"/>
-                    <form:hidden path="detalle.id"/>
+                    <form:hidden class ="form-control" path="id"/>
+                    <form:hidden class="form-control" path="detalle.id"/>
                     <form:input type="text" class="form-control" path="titulo" id="titulo" required="required" />
                 </div>
             </div>
@@ -83,19 +82,6 @@
                     <form:select id="genero" path="genero" class="form-control" items="${generos}" />
 
 
-                        <%--
-                        <form:option value="Accion">Accion</form:option>
-                        <form:option value="Aventura">Aventura </form:option>
-                        <form:option value="Clasicas">Clasicas</form:option>
-                        <form:option value="Comedia Romantica">Comedia Romantica</form:option>
-                        <form:option value="Drama">Drama</form:option>
-                        <form:option value="Terror">Terror</form:option>
-                        <form:option value="Infantil">Infantil</form:option>
-                        <form:option value="Accion y Aventura">Accion y Aventura</form:option>
-                        <form:option value="Romantica">Romantica</form:option>
-                    </form:select>
-                    --%>
-
                 </div>
             </div>
         </div>
@@ -104,7 +90,7 @@
             <div class="col-sm-3">
                 <div class="form-group">
                     <label for="estatus" class="control-label">Estatus</label>
-                    <form:select id="genero" path="estatus" class="form-control">
+                    <form:select id="Estatus" path="estatus" class="form-control">
                         <form:option value="Activa">Activa</form:option>
                         <form:option value="Inactiva">Inactiva</form:option>
                     </form:select>
@@ -158,7 +144,7 @@
           <div class="col-sm-6">
             <div class="form-group">
               <label for="sinopsis">Sinopsis</label>
-              <form:textarea class="form-control" rows="5" path="detalle.sinopsis" id="sinopsis"> </form:textarea>
+              <form:textarea class="form-control" rows="5" path="detalle.sinopsis" id="sinopsis"/>
             </div>
           </div>
         </div>
@@ -178,7 +164,7 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="${urlPublic}/bootstrap/js/bootstrap.min.js"></script>
-<script src="${urlPublic}/tinymce.min.js"></script>
+<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script>
     $(function () {
             $("#fechaEstreno").datepicker({dateFormat: 'dd-mm-yy'});
