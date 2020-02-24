@@ -7,23 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbb7839-d068-4db9-b2f5-a184b02234d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/NoticiasServiceJPA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/horarios/listHorarios.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/noticias/listNoticias.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring/security.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cineapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cineapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/NoticiasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/NoticiasServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PeliculasServiceJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iNoticiasService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iNoticiasService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iPeliculasService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/iPeliculasService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/spring/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/banners/formBanner.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/banners/formBanner.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/detalle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/detalle.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/formContacto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/formContacto.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/noticias/formNoticia.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/noticias/formNoticia.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/formPelicula.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/formPelicula.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/listPeliculas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/peliculas/listPeliculas.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +56,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -340,7 +328,8 @@
       <workItem from="1582191999227" duration="4322000" />
       <workItem from="1582221079813" duration="2865000" />
       <workItem from="1582279501808" duration="6783000" />
-      <workItem from="1582456564765" duration="4631000" />
+      <workItem from="1582456564765" duration="4746000" />
+      <workItem from="1582543663320" duration="2734000" />
     </task>
     <task id="LOCAL-00001" summary="segundo">
       <created>1580993629910</created>
@@ -517,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582289985315</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="segundo">
+      <created>1582461288744</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1582461288744</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,11 +602,11 @@
     </state>
     <state x="655" y="154" width="618" height="731" key="#tomcat/0.0.1920.1040@0.0.1920.1040" timestamp="1580821607827" />
     <state x="655" y="160" key="#tomcat/0.0.1920.1080@0.0.1920.1080" timestamp="1581253201736" />
-    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1582289984635">
+    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1582461288195">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="314" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993628389" />
-    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582289984635" />
+    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582461288195" />
     <state x="717" y="251" key="DetectedRootsChooserDialog" timestamp="1580818499174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -709,10 +705,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="448" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1582223751294" />
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1582289987243">
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1582461291191">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582289987243" />
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582461291191" />
     <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1581254632815">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -721,28 +717,28 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/0.0.1920.1080@0.0.1920.1080" timestamp="1581255927456" />
-    <state x="656" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1582456580042">
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1582543670022">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580983760076" />
-    <state x="656" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582456580042" />
+    <state x="656" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582543670022" />
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1580819682035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580819682035" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582461267580">
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582546406437">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="766" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993610551" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582461267580" />
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582546406437" />
     <state x="383" y="217" key="new project wizard" timestamp="1580810465688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="383" y="217" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580810465688" />
-    <state x="622" y="255" key="run.anything.popup" timestamp="1582281247552">
+    <state x="623" y="256" key="run.anything.popup" timestamp="1582543717780">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="622" y="255" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582281247552" />
+    <state x="623" y="256" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582543717780" />
     <state x="628" y="246" width="672" height="705" key="search.everywhere.popup" timestamp="1582286793632">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
