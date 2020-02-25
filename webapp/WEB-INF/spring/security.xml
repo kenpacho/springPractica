@@ -9,10 +9,11 @@
 
     <http auto-config="true">
             <!--Declaramos todos los recursos que estan protegidos-->
-        <intercept-url pattern="/peliculas/*" access="hasAnyAuthority('EDITOR')" />
-        <intercept-url pattern="/horarios/*" access="hasAnyAuthority('EDITOR')" />
-        <intercept-url pattern="/noticias/*" access="hasAnyAuthority('EDITOR')" />
+        <intercept-url pattern="/peliculas/*" access="hasAnyAuthority('EDITOR', 'GERENTE')" />
+        <intercept-url pattern="/horarios/*" access="hasAnyAuthority('EDITOR', 'GERENTE')" />
+        <intercept-url pattern="/noticias/*" access="hasAnyAuthority('EDITOR', 'GERENTE')" />
         <intercept-url pattern="/banners/*" access="hasAnyAuthority('GERENTE')" />
+        <form-login login-page="/formLogin"/>
 
     </http>
 
