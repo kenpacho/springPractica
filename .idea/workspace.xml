@@ -7,16 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbb7839-d068-4db9-b2f5-a184b02234d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/UsuariosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/usuarios/demo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/Perfil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/PerfilesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/repository/UsuariosRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IPerfilesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/IUsuariosService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/PerfilesServiceJPA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/service/UsuariosServiceJPA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/usuarios/formUsuario.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/usuarios/listUsuarios.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/spring/security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring/security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/UsuariosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlosPracticas/app/controller/UsuariosController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +61,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="Jsp File" />
       </list>
@@ -347,7 +349,7 @@
       <workItem from="1582456564765" duration="4746000" />
       <workItem from="1582543663320" duration="2868000" />
       <workItem from="1582628994195" duration="1960000" />
-      <workItem from="1582734196404" duration="7767000" />
+      <workItem from="1582734196404" duration="11488000" />
     </task>
     <task id="LOCAL-00001" summary="segundo">
       <created>1580993629910</created>
@@ -559,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582737269362</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="segundo">
+      <created>1582802013218</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1582802013218</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,10 +634,10 @@
     </state>
     <state x="417" y="177" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580986369490" />
     <state x="417" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582797122109" />
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1582457670572">
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1582804170330">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582457670572" />
+    <state x="766" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582804170330" />
     <state x="588" y="211" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1580986099412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -652,11 +661,11 @@
     </state>
     <state x="655" y="154" width="618" height="731" key="#tomcat/0.0.1920.1040@0.0.1920.1040" timestamp="1580821607827" />
     <state x="655" y="160" key="#tomcat/0.0.1920.1080@0.0.1920.1080" timestamp="1581253201736" />
-    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1582737268827">
+    <state x="314" y="120" key="CommitChangelistDialog2" timestamp="1582802012714">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="314" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993628389" />
-    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582737268827" />
+    <state x="314" y="120" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582802012714" />
     <state x="717" y="251" key="DetectedRootsChooserDialog" timestamp="1580818499174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -755,10 +764,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="448" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1582223751294" />
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1582737272631">
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2" timestamp="1582802015620">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582737272631" />
+    <state x="553" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582802015620" />
     <state x="956" y="308" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1581254632815">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -776,11 +785,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="167" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580819682035" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582801994973">
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582806858526">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="766" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580993610551" />
-    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582801994973" />
+    <state x="766" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582806858526" />
     <state x="383" y="217" key="new project wizard" timestamp="1580810465688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -789,11 +798,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="256" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582543717780" />
-    <state x="629" y="247" width="672" height="705" key="search.everywhere.popup" timestamp="1582798790591">
+    <state x="630" y="248" width="672" height="705" key="search.everywhere.popup" timestamp="1582805881209">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="620" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580987483334" />
-    <state x="629" y="247" width="672" height="705" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582798790591" />
+    <state x="630" y="248" width="672" height="705" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582805881209" />
     <state x="628" y="226" key="spring file set editor" timestamp="1581961247284">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
